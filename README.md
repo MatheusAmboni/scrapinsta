@@ -3,7 +3,7 @@ A script to scraping data from Instagram
 ## Install
 First of all you can run:
 <pre>pip install scrapinsta</pre>
-After install requirements:
+After that you need to install these requirements:
 <ul>
   You can install one-by-one:
   <li>selenium
@@ -50,10 +50,10 @@ After install requirements:
   <li>Call function Scrapinsta.<b>get_user_followings(account, amount, method, print_following)</li></b>
 </ol>
 <ul>
-  <br> <b>account</b>: Account which want to get users followed
-  <br> <b>amount</b>: Number of users followed to scraping 
-  <br> <b>method</b>: By default is 'list'(returns a list), but can be 'txt' this will write a .txt with users followed
-  <br> <b>print_following</b>: By default is 'false'(don't print users followed), but can be 'true' this will print users followed
+  <br> <b>account</b>: Account which wants to get followed users 
+  <br> <b>amount</b>: Number of followed users to scraping 
+  <br> <b>method</b>: By default is 'list'(returns a list), but can be 'txt' this will write a .txt with followed users
+  <br> <b>print_following</b>: By default is 'false'(don't print followed users), but can be 'true', this will print followed users
   <br><br>Example code:<br>
   <pre> 
     from scrapinsta import Scrapinsta<br>
